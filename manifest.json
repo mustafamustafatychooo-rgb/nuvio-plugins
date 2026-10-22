@@ -1,3 +1,4 @@
+
 {
   "name": "mo7AmMeD64's Nuvio Plugins",
   "version": "1.4",
@@ -8,20 +9,12 @@
       "description": "Cinema Box (cinema.albox.co) — movies & series, Arabic subtitles, split-season auto-matching, MP4 480p/720p/1080p (~5s)",
       "version": "1.5",
       "author": "mo7AmMeD64",
-      "supportedTypes": [
-        "movie",
-        "tv"
-      ],
+      "supportedTypes": ["movie", "tv"],
       "filename": "providers/cinemabox.js",
       "enabled": true,
-      "formats": [
-        "mp4"
-      ],
+      "formats": ["mp4"],
       "logo": "https://www.google.com/s2/favicons?domain=cinema.albox.co&sz=256",
-      "contentLanguage": [
-        "en",
-        "ar"
-      ]
+      "contentLanguage": ["en", "ar"]
     },
     {
       "id": "oscartv",
@@ -29,21 +22,12 @@
       "description": "Oscar TV (ostv-11-11.xyz) — movies, series & anime, direct HLS 360p-1080p with anti-bot signed API (~5s)",
       "version": "1.1",
       "author": "mo7AmMeD64",
-      "supportedTypes": [
-        "movie",
-        "tv"
-      ],
+      "supportedTypes": ["movie", "tv"],
       "filename": "providers/oscartv.js",
       "enabled": true,
-      "formats": [
-        "m3u8",
-        "mp4"
-      ],
+      "formats": ["m3u8", "mp4"],
       "logo": "https://www.google.com/s2/favicons?domain=ostv-11-11.xyz&sz=256",
-      "contentLanguage": [
-        "ar",
-        "en"
-      ]
+      "contentLanguage": ["ar", "en"]
     },
     {
       "id": "animewitcher",
@@ -51,20 +35,12 @@
       "description": "AnimeWitcher (animewitcher.com) — anime movies & series, direct MP4 480p-1080p via MediaFire/PixelDrain (~5-8s)",
       "version": "1.0",
       "author": "Abodabodd",
-      "supportedTypes": [
-        "movie",
-        "tv"
-      ],
+      "supportedTypes": ["movie", "tv"],
       "filename": "providers/animewitcher.js",
       "enabled": true,
-      "formats": [
-        "mp4"
-      ],
+      "formats": ["mp4"],
       "logo": "https://www.google.com/s2/favicons?domain=animewitcher.com&sz=256",
-      "contentLanguage": [
-        "ar",
-        "en"
-      ]
+      "contentLanguage": ["ar", "en"]
     },
     {
       "id": "cimacloud",
@@ -72,20 +48,12 @@
       "description": "Cima Cloud (cima-cloud.com) — full Arabic catalog: movies, series & anime, HLS/MP4 via the app's own API with token attestation (~5-10s)",
       "version": "1.0",
       "author": "mo7AmMeD64",
-      "supportedTypes": [
-        "movie",
-        "tv"
-      ],
+      "supportedTypes": ["movie", "tv"],
       "filename": "providers/cimacloud.js",
       "enabled": true,
-      "formats": [
-        "mp4",
-        "m3u8"
-      ],
+      "formats": ["mp4", "m3u8"],
       "logo": "https://www.google.com/s2/favicons?domain=cima-cloud.com&sz=256",
-      "contentLanguage": [
-        "ar"
-      ]
+      "contentLanguage": ["ar"]
     },
     {
       "id": "anim3rb",
@@ -93,20 +61,26 @@
       "description": "Anime3rb (anime3rb.com) — Arabic-sub anime: movies & series, direct MP4 1080p/720p/480p via vid3rb (~5-10s)",
       "version": "1.0",
       "author": "mo7AmMeD64",
-      "supportedTypes": [
-        "movie",
-        "tv"
-      ],
+      "supportedTypes": ["movie", "tv"],
       "filename": "providers/anim3rb.js",
       "enabled": true,
-      "formats": [
-        "mp4"
-      ],
+      "formats": ["mp4"],
       "logo": "https://www.google.com/s2/favicons?domain=anime3rb.com&sz=256",
-      "contentLanguage": [
-        "ar",
-        "en"
-      ]
+      "contentLanguage": ["ar", "en"]
+    },
+    {
+      "id": "witanime",
+      "name": "Witanime",
+      "description": "Witanime Arabic anime scraper",
+      "version": "1.0",
+      "author": "Mustafa",
+      "supportedTypes": ["movie", "tv"],
+      "filename": "providers/witanime.js",
+      "enabled": true,
+      "formats": ["mp4", "m3u8"],
+      "logo": "https://www.google.com/s2/favicons?domain=witanime.site&sz=256",
+      "contentLanguage": ["ar"]
     }
   ]
 }
+
